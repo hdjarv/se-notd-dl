@@ -1,0 +1,27 @@
+{
+  "name": "se-notd-dl",
+  "version": "1.0.0",
+  "description": "Downloader utility for the Swedish Name of the day list",
+  "bin": "se-notd-dl.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdjarv/se-notd-dl.git"
+  },
+  "keywords": [
+    "calendar",
+    "name",
+    "swedish",
+    "sweden"
+  ],
+  "author": "Henrik Djärv <henrik@djarv.org> (https://github.com/hdjarv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hdjarv/se-notd-dl/issues"
+  },
+  "homepage": "https://github.com/hdjarv/se-notd-dl#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "lodash": "^4.11.1",
+    "q": "^1.4.1"
+  }
+}
